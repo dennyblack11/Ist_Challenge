@@ -1,7 +1,7 @@
 import { connect } from "mongoose";
 
 const URL: string =
-  "mongodb+srv://dennisozoemena08:Dennis11..@cluster0.shpr0lg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+  "mongodb+srv://dennisozoemena08:Dennisozoemena.08@cluster0.shpr0lg.mongodb.net/?retryWrites=true&w=majority";
 
 export const dbConfig = async () => {
   try {
