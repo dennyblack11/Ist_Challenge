@@ -1,12 +1,12 @@
 import { connect } from "mongoose";
 
 const URL: string =
-  "mongodb+srv://dennisozoemena08:Dennisozoemena.08@cluster0.shpr0lg.mongodb.net/?retryWrites=true&w=majority";
+  "mongodb+srv://abbeyrufai234:abbeyrufai234@cluster0.yokwex4.mongodb.net/chOneDB?retryWrites=true&w=majority";
 
 export const dbConfig = async () => {
   try {
     return await connect(URL).then(() => {
-      console.log("Database Connected✈️✈️✈️✈️ ");
+      console.log("DB Connected ");
     });
   } catch (error: any) {
     return error;
